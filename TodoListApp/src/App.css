@@ -1,0 +1,53 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.createC {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.create-input {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 5px;
+  outline: none;
+}
+
+.create-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(13, 225, 123);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border: 1px solid green;
+  border-radius: 50px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  width: 345px;
+  justify-content: space-between;
+  background-color: rgb(232, 236, 7);
+  height: 35px;
+  padding: 2px 5px 2px 5px;
+  margin: 2px;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+  padding: 2px;
+}
+
+.icon {
+  color: white;
+}
+.icon2 {
+  color: red;
+}
+.line_though {
+  text-decoration: line-through;
+}
