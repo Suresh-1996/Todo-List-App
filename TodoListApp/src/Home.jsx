@@ -34,7 +34,7 @@ function Home() {
 
   return (
     <div className="home">
-      <h3>Todo List App</h3>
+      <h3>Simple Todo List App</h3>
       <Create />
 
       {todos.length == 0 ? (
